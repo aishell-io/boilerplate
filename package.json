@@ -1,15 +1,15 @@
 {
-    "name": "build-tools-boilerplate",
-    "version": "2.0.0",
+    "name": "boilerplate",
+    "version": "0.0.1",
     "description": "Simple recipes for building and compiling with the CLI.",
     "author": {
-        "name": "Your Name",
-        "url": "https://your-website.com"
+        "name": "Henry",
+        "url": "https://aishell.io"
     },
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "http://github.com/cferdinandi/build-tools-boilerplate"
+        "url": "https://github.com/aishell-io/boilerplate.git"
     },
     "scripts": {
         "clean": "recursive-delete 'dist'",
