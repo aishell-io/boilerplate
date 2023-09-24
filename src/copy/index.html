@@ -1,18 +1,39 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Copy Me</title>
-	<link rel="stylesheet" type="text/css" href="css/main.css">
-</head>
-<body>
-	<h1>Copy Me</h1>
+<html data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>aishell.io</title>
+    <link rel="stylesheet" type="text/css" href="css/tailwind.css">
+  </head>
+  <body class="text-gray-700 bg-white">
+    <div class="navbar bg-base-100">
+      <div class="flex-1">
+        <a class="btn btn-ghost normal-case text-xl gap-[0.1rem]">
+          <span class="text-red-500 italic">ai</span>shell.io
+        </a>
+      </div>
+      <div class="flex-none">
+        <div class="dropdown dropdown-end">
+          <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+            <div class="w-10 rounded-full">
+              <img src="svg/anonymous.svg" />
+            </div>
+          </label>
+          <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-32">
+            <li>
+              <a class="justify-between">
+                Profile
+              </a>
+            </li>
+            <li><a>Settings</a></li>
+            <li><a>Logout</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
 
-	<p>Anything you put in the <code>copy</code> directory gets copied as-is into the <code>dist</code> directory.</p>
-
-	<p><button id="click-me">Click Me</button></p>
-
-	<!-- Scripts -->
-	<script src="js/detects.js"></script>
-	<script src="js/another-file.js"></script>
-</body>
+    <script src="js/detects.js"></script>
+    <script src="js/another-file.js"></script>
+  </body>
 </html>
