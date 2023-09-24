@@ -32,6 +32,7 @@
     "devDependencies": {
         "browser-sync": "^2.26.14",
         "chokidar-cli": "^2.1.0",
+        "daisyui": "^3.7.7",
         "imagemin-cli": "^6.0.0",
         "imagemin-mozjpeg": "^8.0.0",
         "imagemin-pngcrush": "^6.0.0",
