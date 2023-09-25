@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" href="favicon.png" />
+    <title>Login | aishell.io</title>
+    <link rel="stylesheet" type="text/css" href="../css/tailwind.css">
+  </head>
+  <body class="text-gray-700 bg-white">
+    <div class="navbar bg-base-100 border-b-2">
+      <div class="flex-1">
+        <a class="btn btn-ghost normal-case text-xl gap-[0.1rem]">
+          <span class="text-red-500 italic">ai</span>shell.io
+        </a>
+      </div>
+      <div id="userinfo-wrapper" class="flex-none"></div>
+    </div>
+
+    <iframe id="login-iframe" src="https://d.aicli.org/login" class="w-full min-h-[500px]"></iframe>
+
+    <script src="../js/detects.js"></script>
+    <script src="../js/aishell.js"></script>
+  </body>
+</html>
